@@ -64,5 +64,117 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Credorax is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://equityzen.com/company/credorax
+Credorax, now part of Shift4, provides a unified payments and commerce technology platform. It offers integrated solutions for online payments, point‑of‑sale, mobile, and contactless technologies across industries such as food & beverage, hospitality, sports & entertainment, travel, and retail. The platform enables businesses to deliver seamless customer experiences, manage fraud prevention, and access analytics through a comprehensive API suite.
+
+**Areas:** Company
+
+## Credorax on APIs.io
+
+Everything profiled for Credorax is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/credorax/](https://apis.io/providers/credorax/)** — or go straight to one of the APIs or properties below.
+
+### APIs (5)
+
+- [Credorax Charges API](https://apis.io/apis/credorax/credorax-charges-api/) — The Charges API from Credorax — 1 operation(s) for charges.
+- [Credorax Customers API](https://apis.io/apis/credorax/credorax-customers-api/) — The Customers API from Credorax — 1 operation(s) for customers.
+- [Credorax Events API](https://apis.io/apis/credorax/credorax-events-api/) — The Events API from Credorax — 1 operation(s) for events.
+- [Credorax Plans API](https://apis.io/apis/credorax/credorax-plans-api/) — The Plans API from Credorax — 1 operation(s) for plans.
+- [Credorax Tokens API](https://apis.io/apis/credorax/credorax-tokens-api/) — The Tokens API from Credorax — 1 operation(s) for tokens.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [PostChargesRequest](https://apis.io/schemas/credorax/credorax-post-charges-request/)
+- [PostChargesResponse](https://apis.io/schemas/credorax/credorax-post-charges-response/)
+- [PostCustomersCustomeridCardsResponse](https://apis.io/schemas/credorax/credorax-post-customers-customerid-cards-response/)
+- [PostPlansResponse](https://apis.io/schemas/credorax/credorax-post-plans-response/)
+- [PostTokensRequest](https://apis.io/schemas/credorax/credorax-post-tokens-request/)
+- [PostTokensResponse](https://apis.io/schemas/credorax/credorax-post-tokens-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Credorax Context](https://apis.io/jsonld/credorax/credorax-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Credorax API Rules](https://apis.io/rules/credorax/credorax-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Credorax Authentication](https://apis.io/security/credorax/credorax-authentication/)
+- [Credorax Domain Security](https://apis.io/security/credorax/credorax-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.shift4.com)
+- [Documentation](https://dev.shift4.com/)
+- [Getting started](https://matterhorn-api.redocly.app/docs/api)
+- [API reference](https://docs.shift4.com/apis/payments-platform-rest/openapi.md)
+- [Support](https://help.shift4.com/)
+- [Changelog](https://docs.shift4.com/changelog)
+- [Status](https://status.shift4.com)
+
+## API Evangelist rating
+
+**Kin Score 30.2** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 69.6 |
+| Contract quality | 25.9 |
+| Contract governance | 22.0 |
+| Operational transparency | 31.6 |
+| Developer ergonomics | 52.4 |
+| Access clarity | 0.0 |
+
+**Agent readiness 21.2** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | documented (partial credit) |
+| Error Semantics | — |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 16.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/credorax/](https://apis.io/providers/credorax/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Credorax: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/credorax/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
